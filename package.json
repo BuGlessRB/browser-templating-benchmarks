@@ -1,0 +1,30 @@
+{
+  "name": "browser-templating-benchmarks",
+  "version": "1.0.0",
+  "description": "Templating engine benchmarks in web-browsers",
+  "main": "remixml.min.js",
+  "browser": "remixml.min.js",
+  "scripts": {
+    "test": "./prepfiles && ./runtest.sh",
+    "prepare": "./prepfiles"
+  },
+  "sideEffects": false,
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BuGlessRB/browser-templating-benchmarks"
+  },
+  "keywords": [
+    "templating",
+    "javascript",
+    "benchmarks",
+    "benchmark"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Stephen R. van den Berg <srb@cuci.nl>",
+  "license": "(ISC OR GPL-3.0)"
+}
